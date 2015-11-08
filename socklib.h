@@ -4,11 +4,9 @@ The port number is passed as an argument */
 #ifndef SOCKLIB_H
 #define SOCKLIB_H
 
-// packages I know
 #include <stdlib.h>
 #include <string.h>
-
-// packages to research
+// Note to self: research these ->
 #include <unistd.h>
 #include <sys/types.h> 
 #include <sys/socket.h>
