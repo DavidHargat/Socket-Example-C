@@ -61,6 +61,14 @@ contains the value of the last `listen()` error (called from socklib.h)
 
 ---
 
+### `struct sockaddr *sl_sockaddr_server(int port)`
+
+**returns:** `struct sockaddr *` a pointer to a socket address.
+
+**description:** allocates a socket address and configures it for use as a server on port `port`.
+
+---
+
 ### `struct sockaddr *sl_sockaddr()`
 
 **returns:** `struct sockaddr *` A pointer to a new (zero'd) socket address.
