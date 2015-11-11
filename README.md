@@ -34,3 +34,5 @@ follow the documentation (or read the source/example) for usage
 ### dependencies
 
 gcc - https://gcc.gnu.org/
+
+GNU Sockets - `sys/socket.h`
